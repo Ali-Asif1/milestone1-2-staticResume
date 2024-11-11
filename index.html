@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Static Resume</header>
+      <form id="resumeForm" autocomplete="off">
+        <div class="primary-heading">
+          <span>Personal Information</span>
+        </div>
+        <div class="personal-box">
+          <div class="input-box">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" placeholder="Enter Here" required />
+            <label for="phone">Contact</label>
+            <input type="tel" placeholder="Enter Here" required />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Here" required />
+            <label for="dob">Date of Birth</label>
+            <input type="date" required />
+          </div>
+        </div>
+        <div class="text-box text">
+          <label for="">Address</label>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="2"
+            placeholder="Enter Here"
+            required
+          ></textarea>
+        </div>
+        <div class="line"></div>
+        <div class="text-box">
+          <div class="primary-heading">
+            <span>Education Information</span>
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Enter Here"
+            required
+          ></textarea>
+        </div>
+        <div class="line"></div>
+        <div class="text-box">
+          <div class="primary-heading">
+            <span>Professional Information</span>
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Enter Here"
+            required
+          ></textarea>
+        </div>
+        <div class="btn-box">
+          <button type="submit" id="submit">Generate Resume</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
